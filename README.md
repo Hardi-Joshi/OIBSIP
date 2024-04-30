@@ -13,7 +13,7 @@ public class ATMSystem {
         while (true) {
             displayMenu();
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -40,7 +40,6 @@ public class ATMSystem {
             
         }
     }
-
     private static void login() {
         System.out.println("Welcome to the ATM system!");
         System.out.print("Enter your user ID: ");
